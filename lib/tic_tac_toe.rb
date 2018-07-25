@@ -113,5 +113,5 @@ class TicTacToe
       else !(full?)
         return false
       end
-    end 
+    end
 end
