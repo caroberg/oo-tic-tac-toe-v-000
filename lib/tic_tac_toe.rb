@@ -55,7 +55,7 @@ class TicTacToe
       return "O"
     end
   end
-  
+
   def turn
     puts "Please enter a move: 1-9: "
     position = gets.strip
