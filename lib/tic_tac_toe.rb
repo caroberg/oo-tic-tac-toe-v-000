@@ -92,4 +92,14 @@ class TicTacToe
         token == "X" || token == "O"
       end
     end
+
+    def draw?
+      if won?
+        return false
+      elsif !(full?)
+        return false
+      else
+        return true
+      end
+    end
 end
