@@ -103,7 +103,7 @@ class TicTacToe
       end
     end
 
-    def over?(board)
+    def over?
       if won?
         return true
       elsif full?
